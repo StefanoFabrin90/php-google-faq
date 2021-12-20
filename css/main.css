@@ -41,6 +41,7 @@
   border-bottom: 4px solid transparent;
   align-items: center;
   display: flex;
+  padding-bottom: 10px;
 }
 
 .listHeader .list li a:hover {
