@@ -55,8 +55,8 @@
         <section class="container">
         <?php 
         foreach ($FrequentQuestions as $faq) : ?>
-            <h2> <?php echo $faq['questions']; ?> </h2>
-            <p> <?php echo $faq['answers']; ?> </p>
+            <h2> <?php echo "{$faq['questions']}"; ?> </h2>
+            <p> <?php echo "{$faq['answers']}"; ?> </p>
         <?php endforeach; ?>
         </section>
     </main>
