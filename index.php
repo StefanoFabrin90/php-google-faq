@@ -60,5 +60,10 @@
         <?php endforeach; ?>
         </section>
     </main>
+
+    <!-- footer -->
+    <footer>
+        <h1>FOOTER</h1>
+    </footer>
 </body>
 </html>
