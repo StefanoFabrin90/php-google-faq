@@ -5,11 +5,50 @@
   font-family: sans-serif;
 }
 
-header,
-footer {
-  background-color: lightgrey;
+/* header */
+.intro {
+  padding: 20px 0px 0px 20px;
+  border-bottom: 1px solid black;
 }
 
+.brand {
+  display: flex;
+  margin-bottom: 30px;
+}
+.logo img {
+  width: 150px;
+}
+
+.brand h1 {
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  padding-left: 20px;
+}
+
+.listHeader .list {
+  display: flex;
+  list-style: none;
+}
+
+.listHeader .list li {
+  padding-right: 2rem;
+}
+
+.listHeader .list li a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 4px solid transparent;
+  align-items: center;
+  display: flex;
+}
+
+.listHeader .list li a:hover {
+  border-bottom: 4px solid dodgerblue;
+  color: dodgerblue;
+}
+
+/* main */
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -23,4 +62,9 @@ h2 {
 
 p {
   font-size: 15px;
+}
+
+/* footer */
+footer {
+  background-color: lightgrey;
 }

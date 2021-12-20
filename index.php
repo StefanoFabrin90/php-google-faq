@@ -47,7 +47,23 @@
 <body>
     <!-- header -->
     <header>
-        <h1>HEADER</h1>
+        <section class="intro" >
+            <div class="brand">
+                <div class="logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Google_logo_%282013-2015%29.svg/1024px-Google_logo_%282013-2015%29.svg.png" alt="">
+                </div>
+                <h1>Privacy & Termini</h1>
+            </div>
+            <div class="listHeader">
+                <ul class="list">
+                    <li> <a href="">Introduzione</a></li>
+                    <li> <a href="">Norme sulla privacy</a></li>
+                    <li> <a href="">Termini di servizio</a></li>
+                    <li> <a href="">Tecnologie</a></li>
+                    <li> <a href="">Domande frequenti</a></li>
+                </ul>
+            </div>
+        </section>
     </header>
     <!-- main -->
     
